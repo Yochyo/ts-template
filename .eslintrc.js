@@ -10,5 +10,7 @@ module.exports = {
     sourceType: 'module',
     project: 'tsconfig.json',
   },
-  rules: {},
+  rules: {
+    "eqeqeq": 'off'
+  },
 };
