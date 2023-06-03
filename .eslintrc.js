@@ -12,6 +12,8 @@ module.exports = {
   },
   rules: {
     "eqeqeq": 'off',
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/prefer-ts-expect-error": "off",
   },
 };
